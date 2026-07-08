@@ -15,7 +15,7 @@ const FeatureCard = ({ title, imageUrl, description }: FeatureData) => {
       <div className="flex-5 flex-col gap-2 m-8 lg:m-12">
         <h3 className="text-black text-2xl font-medium">{title}</h3>
         <p className="text-gray-600 text-md mt-4">{description}</p>
-        <button className="bg-gray-200 text-black font-medium px-4 py-2 mt-8 rounded-3xl self-start">
+        <button className="bg-gray-200 text-black font-medium px-4 py-2 mt-8 rounded-3xl self-start transition-all duration-200 ease-out hover:scale-105">
           Book a flight
         </button>
       </div>

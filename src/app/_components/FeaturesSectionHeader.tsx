@@ -8,14 +8,14 @@ const FeaturesSectionHeader = () => {
       </h1>
       <div className="flex gap-2">
         <button
-          className="bg-black text-white px-4 py-2 rounded-3xl"
+          className="bg-black text-white px-4 py-2 rounded-3xl transition-all duration-200 ease-out hover:scale-105"
           onClick={() => {}}
         >
           Amalfi Jets Experience
         </button>
 
         <button
-          className="bg-transparent border border-black text-black px-4 py-2 rounded-3xl"
+          className="bg-transparent border border-black text-black px-4 py-2 rounded-3xl transition-all duration-200 ease-out hover:scale-105"
           onClick={() => {}}
         >
           Watch Video
