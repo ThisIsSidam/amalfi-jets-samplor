@@ -1,7 +1,7 @@
 import {
-    Carousel,
-    CarouselContent,
-    CarouselItem,
+  Carousel,
+  CarouselContent,
+  CarouselItem,
 } from "@/components/ui/carousel";
 import { featureCardData } from "../_data/features";
 import FeatureCard from "./FeatureCard";
@@ -9,7 +9,7 @@ import FeaturesSectionHeader from "./FeaturesSectionHeader";
 
 const FeaturesSection = () => {
   return (
-    <div className="bg-gray-100 py-4">
+    <section className="bg-gray-100 py-4 pb-28 lg:pb-36">
       <FeaturesSectionHeader />
       <Carousel
         opts={{
@@ -35,7 +35,7 @@ const FeaturesSection = () => {
           <div className="basis-[14vw] shrink-0" />
         </CarouselContent>
       </Carousel>
-    </div>
+    </section>
   );
 };
 
