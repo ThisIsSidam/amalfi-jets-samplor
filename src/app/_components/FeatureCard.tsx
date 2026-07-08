@@ -13,8 +13,8 @@ const FeatureCard = ({ title, imageUrl, description }: FeatureData) => {
         className="flex w-full h-full sm:h-auto sm:w-1/2 rounded-3xl"
       />
       <div className="flex flex-col gap-2 m-8 lg:m-12">
-        <h3 className="text-black text-xl font-bold">{title}</h3>
-        <p className="text-gray-600">{description}</p>
+        <h3 className="text-black text-2xl font-medium">{title}</h3>
+        <p className="text-gray-600 text-sm">{description}</p>
       </div>
     </div>
   );
