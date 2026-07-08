@@ -32,7 +32,7 @@ const FeaturesSection = () => {
   }, [api]);
 
   return (
-    <section className="bg-gray-100 py-4 pb-28 lg:pb-36">
+    <section className="bg-gray-100 py-28 lg:py-36">
       <FeaturesSectionHeader />
       <Carousel
         setApi={setApi}
