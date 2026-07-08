@@ -16,14 +16,14 @@ const FeaturesSection = () => {
           align: "center",
           containScroll: "trimSnaps",
         }}
-        className="w-full mt-8"
+        className="w-full mt-16"
       >
-        <CarouselContent className="flex gap-4">
+        <CarouselContent className="flex gap-1">
           <div className="basis-[14vw] shrink-0" />
           {featureCardData.map((feature, index) => (
             <CarouselItem
               key={index}
-              className="pl-5 basis-[85%] max-w-275 lg:basis-[78%]"
+              className="pl-5 basis-[80%] max-w-300 lg:basis-[80%]"
             >
               <FeatureCard
                 title={feature.title}
